@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Adrian Sapien">
+    <meta name="description" content="Take this quiz I made">
+
+    <title>Trivia Night</title>
+    <link rel="icon" href="images/favicon.png" type="image">
+    <link rel="stylesheet" href="style.css">
+    
+    <meta property="og:image" content="favicon.png">
+    <meta property="og:description" content="Take this quiz I made">
+    <meta property="og:title" content="Trivia Night">
+
+
+</head>
+
+<body style="background-image: url(images/lightBackground.png)">
+<nav>
+    <fieldset>
+        <legend>Links to other pages</legend>
+        <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="survey.html">Survey</a></li>
+        </ul>
+    </fieldset>
+</nav>
+<main>
+    <form Action="#" method="POST">
+        <fieldset>
+            <legend>Multiple Choice</legend>
+            <p>What is the <em>scientific</em> name of H<sub>2</sub>O?</p>
+            <ul>
+                <li><label for="air"></label>
+                <input type="radio" id="air" name="user.q1">Air</li>
+                <li><label for="fire"></label>
+                <input type="radio" id="fire" name="user.q1">Fire</li>
+                <li><label for="earth"></label>
+                <input type="radio" id="earth" name="user.q1">Earth</li>
+                <li><label for="water"></label>
+                <input type="radio" id="water" name="user.q1">Water</li>
+            </ul>
+            <p>What is the <em>most popular</em> name for Dec. 25<sup>th</sup>?</p>
+            <ul>
+                <li><label for="xmas"></label>
+                <input type="radio" id="xmas" name="user.q2">Christmas</li>
+                <li><label for="thx"></label>
+                <input type="radio" id="thx" name="user.q2">Thanksgiving</li>
+                <li><label for="val"></label>
+                <input type="radio" id="val" name="user.q2">Valentine's Day</li>
+                <li><label for="hal"></label>
+                <input type="radio" id="hal" name="user.q2">Halloween</li>
+            </ul>
+            <p>Which of the following the the chemical code for <strong>sugar</strong>?</p>
+            <ul>
+                <li><label for="a1"></label>
+                <input type="checkbox" id="a1" name="user.q3">C<sub>12</sub>H<sub>22</sub>O<sub>11</sub></li>
+                <li><label for="a2"></label>
+                <input type="checkbox" id="a2" name="user.q3">C<sub>5</sub>H<sub>10</sub>O<sub>5</sub></li>
+                <li><label for="a3"></label>
+                <input type="checkbox" id="a3" name="user.q3">C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></li>
+                <li><label for="a4"></label>
+                <input type="checkbox" id="a4" name="user.q3">C<sub>11</sub>H<sub>22</sub>O<sub>11</sub></li>
+            </ul>
+            <p>Which of the following are <strong>even</strong>?</p>
+            <ul>
+                <li><label for="first"></label>
+                <input type="checkbox" id="first" name="user.q4">1<sup>st</sup></li>
+                <li><label for="second"></label>
+                <input type="checkbox" id="second" name="user.q4">2<sup>nd</sup></li>
+                <li><label for="third"></label>
+                <input type="checkbox" id="third" name="user.q4">3<sup>rd</sup></li>
+                <li><label for="fourth"></label>
+                <input type="checkbox" id="fourth" name="user.q4">4<sup>th</sup></li>
+            </ul>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</main>
+
+</body>
+
+</html>
